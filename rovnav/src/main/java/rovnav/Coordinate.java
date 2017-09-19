@@ -11,10 +11,10 @@ public class Coordinate {
 	private int x;
 	private int y;
 	private int z;
-	private Direction dir;
+	private Direction direction;
 	
 	@Override
 	public String toString() {
-		return x + " " + y + " " + z + " " + dir;
+		return x + " " + y + " " + z + " " + direction;
 	}
 }
